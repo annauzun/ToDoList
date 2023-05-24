@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.background {
+    background-image: linear-gradient(to right, rgba(9, 36, 94, 0.062), rgba(245, 245, 220, 0.582)), url(images/background_flower.jpg);
+    background-size: cover;
+    height: 1000px;
+    position: relative;
+}
+
+#title {
+    font-size: 64px;
+    font-weight: 700;
+    color: rgba(19, 107, 167, 0.966);
+    text-align: center;
+    text-shadow: 1px 1px rgb(9, 36, 94);
+    padding-top: 200px;
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+#input {
+    width: 35%;
+    font-size: 30px;
+    color: rgba(19, 107, 167, 0.966);
+    border: 1px solid #d6d3d1;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+}
+
+button {
+    background-color: rgba(19, 108, 167);
+    font-size: 30px;
+    color: beige;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#container {
+    font-size: 48px;
+    color: rgb(8, 89, 143);
+    padding-left: 30%;
+    padding-right: 20%;
+    margin-top: 3%;
+}
